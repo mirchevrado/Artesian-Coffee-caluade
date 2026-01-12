@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body bg-coffee-deep text-cream-light;
+}
+
+.glass-panel {
+  @apply bg-coffee-dark/70 backdrop-blur-xl border border-coffee-soft/40 rounded-2xl shadow-xl;
+}
+
+.gold-border {
+  @apply border border-coffee-gold/60;
+}
+
+.nav-pill {
+  @apply px-4 py-2 rounded-full text-sm font-medium transition-colors;
+}
+
+.nav-pill-active {
+  @apply bg-coffee-gold text-coffee-deep shadow-glow-gold;
+}
+
+.nav-pill-muted {
+  @apply bg-coffee-medium/60 text-cream-soft hover:bg-coffee-soft/80;
+}
+
